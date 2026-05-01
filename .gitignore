@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Internal proposal docs (do not publish)
+2026 ICDMW Proposal + AI4S-Bench 2026 (1).pdf
+*.pdf
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
