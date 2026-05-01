@@ -259,38 +259,6 @@
                         color: #444;
                         margin-bottom: 40px;
                     }
-
-                    .overview-section .questions-grid {
-                        display: grid;
-                        grid-template-columns: repeat(2, 1fr);
-                        gap: 30px;
-                        margin-top: 40px;
-                    }
-
-                    .overview-section .question-card {
-                        background: #f8f9fa;
-                        border-radius: 12px;
-                        padding: 25px;
-                        transition: transform 0.3s ease;
-                    }
-
-                    .overview-section .question-card:hover {
-                        transform: translateY(-5px);
-                    }
-
-                    .overview-section .question-title {
-                        color: #2c5282;
-                        font-size: 1.2em;
-                        font-weight: 600;
-                        margin-bottom: 15px;
-                        border-bottom: 2px solid #4299e1;
-                        padding-bottom: 8px;
-                    }
-
-                    .overview-section .question-content {
-                        color: #4a5568;
-                        line-height: 1.6;
-                    }
                 </style>
                 <div class="overview-section">
                     <div class="intro-text">
@@ -301,35 +269,12 @@
 
                     <h3 style="color: #2d3748; margin: 30px 0 20px;">Topics We Aim to Address</h3>
 
-                    <div class="questions-grid">
-                        <div class="question-card">
-                            <div class="question-title">Scientific Data Evaluation</div>
-                            <div class="question-content">
-                                Methods for assessing data quality and AI readiness; standardized metrics and protocols for scientific datasets; design, curation, and application of benchmark datasets.
-                            </div>
-                        </div>
-
-                        <div class="question-card">
-                            <div class="question-title">AI Models and Agents for Science</div>
-                            <div class="question-content">
-                                Task-specific evaluation for scientific models; assessing the performance, reliability, robustness, interpretability, and safety of large language models and agentic AI on scientific tasks; standardized benchmarks across scientific domains.
-                            </div>
-                        </div>
-
-                        <div class="question-card">
-                            <div class="question-title">AI4S for Scientific Discovery</div>
-                            <div class="question-content">
-                                Evaluating AI-assisted workflows, hypothesis generation, and knowledge discovery; assessing AI-driven decision support and experimental design in scientific research.
-                            </div>
-                        </div>
-
-                        <div class="question-card">
-                            <div class="question-title">Standards and Best Practices</div>
-                            <div class="question-content">
-                                Establishing community-wide guidelines for reproducible benchmarking of datasets, models, and AI4S methods; promoting transparency, FAIR principles, and consistent reporting of AI performance in science.
-                            </div>
-                        </div>
-                    </div>
+                    <ul class="large text-muted" style="float:left; width: 100%">
+                        <li>Scientific Data Evaluation</li>
+                        <li>Evaluation of AI Models and Agents for Science</li>
+                        <li>Benchmarking AI4S Applications for Scientific Discovery</li>
+                        <li>Standards and Best Practices for Reproducible AI4S</li>
+                    </ul>
                 </div>
             </div>
         </div>
