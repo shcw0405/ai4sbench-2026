@@ -1,603 +1,732 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="files_new/logo.jpg" />
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="icon" type="image/svg+xml" href="files_new/logo.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="The 1st International Workshop on AI-for-Science Benchmarking (AI4S-Bench) at ICDM 2026, Shenyang, China"
+    />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The 1st International Workshop on AI-for-Science Benchmarking (AI4S-Bench) at ICDM 2026, Shenyang, China">
-
-
-    <title>AI4S-Bench 2026 — The 1st International Workshop on AI-for-Science Benchmarking</title>
+    <title>
+      AI4S-Bench 2026 — The 1st International Workshop on AI-for-Science
+      Benchmarking
+    </title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="./files_new/bootstrap.min.css" rel="stylesheet">
+    <link href="./files_new/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom CSS -->
-    <link href="./files_new/agency.css" rel="stylesheet">
+    <link href="./files_new/agency.css" rel="stylesheet" />
 
     <!-- Custom Fonts -->
-    <link href="./files_new/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="./files_new/css" rel="stylesheet" type="text/css">
-    <link href="./files_new/css(1)" rel="stylesheet" type="text/css">
-    <link href="./files_new/css(2)" rel="stylesheet" type="text/css">
-    <link href="./files_new/css(3)" rel="stylesheet" type="text/css">
-    <link href="./files_new/css2" rel="stylesheet" type="text/css">
+    <link
+      href="./files_new/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="./files_new/css" rel="stylesheet" type="text/css" />
+    <link href="./files_new/css(1)" rel="stylesheet" type="text/css" />
+    <link href="./files_new/css(2)" rel="stylesheet" type="text/css" />
+    <link href="./files_new/css(3)" rel="stylesheet" type="text/css" />
+    <link href="./files_new/css2" rel="stylesheet" type="text/css" />
+  </head>
 
-</head>
-
-<body id="page-top" class="index">
+  <body id="page-top" class="index">
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-middle">
-                        <li class="hidden active">
-                            <a href="#page-top"></a>
-                        </li>
+          <div
+            class="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul class="nav navbar-nav navbar-middle">
+              <li class="hidden active">
+                <a href="#page-top"></a>
+              </li>
 
-                        <li>
-                            <a class="page-scroll" href="#" style="left: -80px; font-size:22px;">AI4S-Bench 2026 @ ICDM</a>
-                        </li>
-                        <li>
-                            <a style="padding-left: 20px;"></a>
-                        </li>
+              <li>
+                <a
+                  class="page-scroll"
+                  href="#"
+                  style="left: -80px; font-size: 22px"
+                  >AI4S-Bench 2026 @ ICDM</a
+                >
+              </li>
+              <li>
+                <a style="padding-left: 20px"></a>
+              </li>
 
-                        <li>
-                            <a class="page-scroll" href="#introduction">About</a>
-                        </li>
+              <li>
+                <a class="page-scroll" href="#introduction">Introduction</a>
+              </li>
 
-                        <li>
-                            <a class="page-scroll" href="#call">Call for
-                                Papers</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#program">Schedule</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#speaker">Invited
-                                Speakers</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#organization">Organizers</a>
-                        </li>
-                        <li>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+              <li>
+                <a class="page-scroll" href="#call">Call for Papers</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#organization">Organizers</a>
+              </li>
+              <li></li>
+            </ul>
+          </div>
         </div>
+      </div>
     </nav>
 
     <!-- Header -->
     <header>
-        <style>
-            header {
-                background-image: url(img/bg_shenyang.png);
-                background-size: cover;
-                background-position: center;
-                color: #fff;
-                text-align: center;
-                padding: 20px 0;
-                position: relative;
-            }
+      <style>
+        header {
+          background-image: url(img/bg_shenyang.png);
+          background-size: cover;
+          background-position: center;
+          color: #fff;
+          text-align: center;
+          padding: 20px 0;
+          position: relative;
+        }
 
-            header::before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background: rgba(0, 0, 0, 0.45);
-                z-index: 1;
-            }
+        header::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.45);
+          z-index: 1;
+        }
 
-            .container {
-                position: relative;
-                z-index: 2;
-            }
+        .container {
+          position: relative;
+          z-index: 2;
+        }
 
-            .intro-heading,
-            .intro-lead-in {
-                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            }
+        .intro-heading,
+        .intro-lead-in {
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
 
-            .intro-heading {
-                font-size: 3.2em;
-                font-weight: bold;
-                margin-bottom: 20px;
-                letter-spacing: 1px;
-            }
+        .intro-heading {
+          font-size: 3.2em;
+          font-weight: bold;
+          margin-bottom: 20px;
+          letter-spacing: 1px;
+        }
 
-            .intro-lead-in {
-                font-size: 1.6em;
-                margin-bottom: 10px;
-            }
+        .intro-lead-in {
+          font-size: 1.6em;
+          margin-bottom: 10px;
+        }
 
-            header {
-                padding: 0px 0 0px 0;
-            }
+        header {
+          padding: 0px 0 0px 0;
+        }
 
-            .buttons {
-                margin-top: 0px;
-                position: relative;
-                z-index: 3;
-            }
+        .buttons {
+          margin-top: 0px;
+          position: relative;
+          z-index: 3;
+        }
 
-            .btn {
-                margin: 15px 5px;
-                padding: 12px 24px;
-                color: #fff;
-                background-color: rgba(255, 255, 255, 0.15);
-                border: 2px solid rgba(255, 255, 255, 0.8);
-                border-radius: 5px;
-                text-decoration: none;
-                transition: all 0.3s ease;
-                display: inline-block;
-                backdrop-filter: blur(5px);
-            }
+        .btn {
+          margin: 15px 5px;
+          padding: 12px 24px;
+          color: #fff;
+          background-color: rgba(255, 255, 255, 0.15);
+          border: 2px solid rgba(255, 255, 255, 0.8);
+          border-radius: 5px;
+          text-decoration: none;
+          transition: all 0.3s ease;
+          display: inline-block;
+          backdrop-filter: blur(5px);
+        }
 
-            .btn:hover {
-                background-color: rgba(255, 255, 255, 0.3);
-                transform: translateY(-2px);
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            }
+        .btn:hover {
+          background-color: rgba(255, 255, 255, 0.3);
+          transform: translateY(-2px);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
 
-            section {
-                position: relative;
-                padding: 40px 0;
-                margin: 0;
-            }
+        section {
+          position: relative;
+          padding: 40px 0;
+          margin: 0;
+        }
 
-            section:not(:last-child)::after {
-                content: '';
-                position: absolute;
-                bottom: 0;
-                left: 0%;
-                right: 0%;
-                height: 1px;
-                background: #e0e0e0;
-            }
+        section:not(:last-child)::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0%;
+          right: 0%;
+          height: 1px;
+          background: #e0e0e0;
+        }
 
-            .section-heading {
-                margin-bottom: 20px !important;
-            }
+        .section-heading {
+          margin-bottom: 20px !important;
+        }
 
-            #introduction,
-            #call,
-            #dates,
-            #program,
-            #speaker,
-            #organization {
-                padding-top: 30px;
-                padding-bottom: 30px;
-            }
-        </style>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-heading">
-                    <div>The 1st International Workshop on</div>
-                    <div>AI-for-Science Benchmarking (AI4S-Bench)</div>
-                </div>
-                <div class="intro-lead-in">Co-located with IEEE ICDM 2026</div>
-                <div class="intro-lead-in">November 12, 2026 &nbsp;·&nbsp; Shenyang, China</div>
-                <div class="intro-lead-in" style="font-size: 1.2em; opacity: 0.9;">Workshop format:half-day </div>
-            </div>
+        #introduction,
+        #call,
+        #dates,
+        #organization {
+          padding-top: 30px;
+          padding-bottom: 30px;
+        }
+      </style>
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-heading">
+            <div>The 1st International Workshop on</div>
+            <div>AI-for-Science Benchmarking (AI4S-Bench)</div>
+          </div>
+          <div class="intro-lead-in">Co-located with IEEE ICDM 2026</div>
+          <div class="intro-lead-in">
+            November 12, 2026 &nbsp;·&nbsp; Shenyang, China
+          </div>
+          <div class="intro-lead-in" style="font-size: 1.2em; opacity: 0.9">
+            Workshop format:half-day
+          </div>
         </div>
+      </div>
     </header>
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <!-- Introduction Section -->
     <section id="introduction">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 ">
-                    <h2 class="section-heading">About</h2>
-                </div>
-            </div>
-            <div class="row text-justify">
-                <style>
-                    .overview-section {
-                        max-width: 1200px;
-                        margin: 0 auto;
-                        padding: 40px 20px;
-                    }
-
-                    .overview-section .intro-text {
-                        font-size: 1.1em;
-                        line-height: 1.8;
-                        color: #444;
-                        margin-bottom: 40px;
-                    }
-                </style>
-                <div class="overview-section">
-                    <div class="intro-text">
-                        AI-for-Science (AI4S) has emerged as a rapidly growing research area, driven by the availability of large-scale scientific datasets and advances in AI technologies. These methods are increasingly applied to scientific tasks such as protein structure prediction, single-cell genomics, and climate and Earth system modeling. Their effectiveness critically depends on the quality and AI-readiness of scientific datasets, as well as the performance, robustness, and reliability of AI models. Systematic evaluation of data, models, and applications is essential to ensure reproducible and trustworthy scientific discoveries.
-                        <br><br>
-                        <b>AI4S-Bench</b> aims to foster research on AI4S benchmarking by promoting the development of standardized datasets, evaluation protocols, and metrics, while encouraging reproducibility, transparency, and FAIR principles across diverse scientific domains. By providing a forum for discussion and collaboration, AI4S-Bench aligns with ICDM's mission of advancing knowledge discovery and data mining.
-                    </div>
-
-                    <h3 style="color: #2d3748; margin: 30px 0 20px;">Topics We Aim to Address</h3>
-
-                    <ul class="large text-muted" style="float:left; width: 100%">
-                        <li><b>Scientific Data Evaluation</b> — Assessing data quality, AI-readiness, and standardized metrics for scientific datasets.</li>
-                        <li><b>Evaluation of AI Models and Agents for Science</b> — Benchmarking performance, reliability, and robustness of AI models and LLM-based agents on scientific tasks.</li>
-                        <li><b>Benchmarking AI4S Applications for Scientific Discovery</b> — Evaluating AI-assisted workflows, hypothesis generation, and knowledge discovery pipelines.</li>
-                        <li><b>Standards and Best Practices for Reproducible AI4S</b> — Promoting FAIR principles, transparency, and community-wide guidelines for evaluating AI in science.</li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="section-heading">Introduction</h2>
+          </div>
         </div>
+        <div class="row text-justify">
+          <style>
+            .overview-section {
+              max-width: 1200px;
+              margin: 0 auto;
+              padding: 40px 20px;
+            }
+
+            .overview-section .intro-text {
+              font-size: 1.1em;
+              line-height: 1.8;
+              color: #444;
+              margin-bottom: 40px;
+            }
+          </style>
+          <div class="overview-section">
+            <div class="intro-text">
+              AI-for-Science (AI4S) has emerged as a rapidly growing research
+              area, driven by the availability of large-scale scientific
+              datasets and advances in AI technologies. These methods are
+              increasingly applied to scientific tasks such as protein structure
+              prediction, single-cell genomics, and climate and Earth system
+              modeling. Their effectiveness critically depends on the quality
+              and AI-readiness of scientific datasets, as well as the
+              performance, robustness, and reliability of AI models. Systematic
+              evaluation of data, models, and applications is essential to
+              ensure reproducible and trustworthy scientific discoveries.
+              <br /><br />
+              <b>AI4S-Bench</b> aims to foster research on AI4S benchmarking by
+              promoting the development of standardized datasets, evaluation
+              protocols, and metrics, while encouraging reproducibility,
+              transparency, and FAIR principles across diverse scientific
+              domains. By providing a forum for discussion and collaboration,
+              AI4S-Bench aligns with ICDM's mission of advancing knowledge
+              discovery and data mining.
+            </div>
+
+            <h3 style="color: #2d3748; margin: 30px 0 20px">
+              Topics We Aim to Address
+            </h3>
+
+            <ul class="large text-muted" style="float: left; width: 100%">
+              <li>
+                <b>Scientific Data Evaluation</b> — Assessing data quality,
+                AI-readiness, and standardized metrics for scientific datasets.
+              </li>
+              <li>
+                <b>Evaluation of AI Models and Agents for Science</b> —
+                Benchmarking performance, reliability, and robustness of AI
+                models and LLM-based agents on scientific tasks.
+              </li>
+              <li>
+                <b>Benchmarking AI4S Applications for Scientific Discovery</b> —
+                Evaluating AI-assisted workflows, hypothesis generation, and
+                knowledge discovery pipelines.
+              </li>
+              <li>
+                <b>Standards and Best Practices for Reproducible AI4S</b> —
+                Promoting FAIR principles, transparency, and community-wide
+                guidelines for evaluating AI in science.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Call for Papers -->
     <section id="call">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 ">
-                    <h2 class="section-heading">Call for Papers</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="section-heading">Call for Papers</h2>
 
-                    <div class="row text-justify">
-                        <div class="col-md-12">
-                            <p class="large text-muted">
-                                The <b>1st International Workshop on AI-for-Science Benchmarking (AI4S-Bench) @ ICDM 2026</b> invites submissions on all aspects of benchmarking AI for science, including datasets, models, evaluation methodologies, and scientific discovery. We welcome contributions from researchers in machine learning and data mining, as well as scholars in the natural sciences (such as physics, chemistry, biology, geosciences) whose work necessitates rigorous evaluation of AI4S methods.
-                            </p>
+            <div class="row text-justify">
+              <div class="col-md-12">
+                <p class="large text-muted">
+                  The
+                  <b
+                    >1st International Workshop on AI-for-Science Benchmarking
+                    (AI4S-Bench) @ ICDM 2026</b
+                  >
+                  invites submissions on all aspects of benchmarking AI for
+                  science, including datasets, models, evaluation methodologies,
+                  and scientific discovery. We welcome contributions from
+                  researchers in machine learning and data mining, as well as
+                  scholars in the natural sciences (such as physics, chemistry,
+                  biology, geosciences) whose work necessitates rigorous
+                  evaluation of AI4S methods.
+                </p>
 
-                            <div style="font-family: system-ui, -apple-system, sans-serif;">
-                                <h1 style="font-family: 'Georgia', serif; font-size: 2.5rem; margin-bottom: 1.5rem; color: #2c5282; font-weight: 600;">Key Dates</h1>
+                <div
+                  style="
+                    font-family:
+                      system-ui,
+                      -apple-system,
+                      sans-serif;
+                  "
+                >
+                  <h1
+                    style="
+                      font-family: &quot;Georgia&quot;, serif;
+                      font-size: 2.5rem;
+                      margin-bottom: 1.5rem;
+                      color: #2c5282;
+                      font-weight: 600;
+                    "
+                  >
+                    Key Dates
+                  </h1>
 
-                                <ul class="large text-muted" style="float:left; width: 100%">
-                                    <li style="margin-bottom: 0rem;">
-                                        <span style="font-weight: bold;">Paper Submission Deadline:</span> XXXX, 2026 (AoE)
-                                    </li>
-                                    <li style="margin-bottom: 0rem;">
-                                        <span style="font-weight: bold;">Notification of Acceptance:</span> XXXX, 2026 (AoE)
-                                    </li>
-                                    <li style="margin-bottom: 0rem;">
-                                        <span style="font-weight: bold;">Camera-ready Deadline:</span> XXXX, 2026 (AoE)
-                                    </li>
-                                    <li style="margin-bottom: 0rem;">
-                                        <span style="font-weight: bold;">Workshop Date:</span> XXXX, 2026
-                                    </li>
-                                </ul>
+                  <ul class="large text-muted" style="float: left; width: 100%">
+                    <li style="margin-bottom: 0rem">
+                      <span style="font-weight: bold">Paper Submission Deadline:</span> TBA
+                    </li>
+                    <li style="margin-bottom: 0rem">
+                      <span style="font-weight: bold">Notification of Acceptance:</span> TBA
+                    </li>
+                    <li style="margin-bottom: 0rem">
+                      <span style="font-weight: bold">Camera-ready Deadline:</span> TBA
+                    </li>
+                    <li style="margin-bottom: 0rem">
+                      <span style="font-weight: bold">Workshop Date:</span> TBA
+                    </li>
+                  </ul>
 
-                                <p style="margin-top: 1.5rem; line-height: 1.5;">
-                                    All deadlines follow the <span style="color: #1d6eb0;">Anywhere on Earth (AoE)</span> timezone.
-                                </p>
-                            </div>
-
-                            <div style="font-family: system-ui, -apple-system, sans-serif;">
-                                <h1 style="font-family: 'Georgia', serif; font-size: 2.5rem; margin-bottom: 1.5rem; color: #2c5282; font-weight: 600;">Submission Site</h1>
-
-                                <p class="large text-muted">
-                                    All papers must be submitted via the <b>EasyChair</b> system. Submission link: <span style="color: #1d6eb0;">XXXX</span> (will be announced).
-                                </p>
-                            </div>
-
-                            <div style="font-family: system-ui, -apple-system, sans-serif;">
-                                <h1 style="font-family: 'Georgia', serif; font-size: 2.5rem; margin-bottom: 1.5rem; color: #2c5282; font-weight: 600;">Scope</h1>
-
-                                <p class="large text-muted">We welcome contributions across a broad spectrum of topics, including but not limited to:</p>
-
-                                <ul class="large text-muted" style="float:left; width: 100%">
-                                    <li>Methods for assessing data quality and AI readiness of scientific datasets</li>
-                                    <li>Standardized metrics, evaluation protocols, and benchmark datasets across scientific domains</li>
-                                    <li>Task-specific evaluation for scientific models (e.g., protein structure, single-cell genomics, climate modeling)</li>
-                                    <li>Assessing performance, reliability, robustness, and safety of LLMs and agentic AI on scientific tasks</li>
-                                    <li>Interpretability, transparency, and trustworthiness of AI in scientific research</li>
-                                    <li>Standardized benchmarks and evaluation frameworks for cross-domain comparison</li>
-                                    <li>Evaluating AI-assisted workflows, hypothesis generation, and knowledge discovery</li>
-                                    <li>Assessing AI-driven decision support and experimental design in scientific research</li>
-                                    <li>Community-wide guidelines for reproducible benchmarking and FAIR principles in AI4S</li>
-                                </ul>
-                            </div>
-
-                            <div style="font-family: system-ui, -apple-system, sans-serif;">
-                                <h1 style="font-family: 'Georgia', serif; font-size: 2.5rem; margin-bottom: 1.5rem; color: #2c5282; font-weight: 600;">Submission Guidelines</h1>
-
-                                <p class="large text-muted">
-                                    <mybold>Format:</mybold> &nbsp;All submissions must be a single PDF file, formatted according to the latest <b>IEEE Conference Proceedings Template</b>. We welcome high-quality original papers in the following two tracks:
-                                </p>
-                                <ul class="large text-muted" style="float:left; width: 100%">
-                                    <li style="margin-bottom: 0rem;">
-                                        <span style="font-weight: bold;">Regular Research Papers:</span> 8 pages (including all content and references)
-                                    </li>
-                                    <li style="margin-bottom: 0rem;">
-                                        <span style="font-weight: bold;">Vision Papers and Short Technical Papers:</span> 4–6 pages (including all content and references)
-                                    </li>
-                                </ul>
-
-                                <p class="large text-muted">
-                                    <mybold>Review Criteria:</mybold> &nbsp; Submitted papers will be assessed based on novelty, technical quality, potential impact, insightfulness, depth, clarity, and reproducibility.
-                                </p>
-
-                                <p class="large text-muted">
-                                    <mybold>Best Paper Award:</mybold> &nbsp; A Best Paper Award will be presented to recognize one outstanding submission.
-                                </p>
-
-                                <p class="large text-muted">
-                                    <mybold>Contact:</mybold> &nbsp; For any questions, please contact us at
-                                    <a href="mailto:ai4sbench2026@easychair.org">ai4sbench2026@easychair.org</a>.
-                                </p>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
+                  <p style="margin-top: 1.5rem; line-height: 1.5">
+                    All deadlines follow the
+                    <span style="color: #1d6eb0">Anywhere on Earth (AoE)</span>
+                    timezone.
+                  </p>
                 </div>
+
+                <div
+                  style="
+                    font-family:
+                      system-ui,
+                      -apple-system,
+                      sans-serif;
+                  "
+                >
+                  <h1
+                    style="
+                      font-family: &quot;Georgia&quot;, serif;
+                      font-size: 2.5rem;
+                      margin-bottom: 1.5rem;
+                      color: #2c5282;
+                      font-weight: 600;
+                    "
+                  >
+                    Submission Site
+                  </h1>
+
+                  <p class="large text-muted">
+                    Submission link will be announced. Please check back later.
+                  </p>
+                </div>
+
+                <div
+                  style="
+                    font-family:
+                      system-ui,
+                      -apple-system,
+                      sans-serif;
+                  "
+                >
+                  <h1
+                    style="
+                      font-family: &quot;Georgia&quot;, serif;
+                      font-size: 2.5rem;
+                      margin-bottom: 1.5rem;
+                      color: #2c5282;
+                      font-weight: 600;
+                    "
+                  >
+                    Scope
+                  </h1>
+
+                  <p class="large text-muted">
+                    We welcome contributions across a broad spectrum of topics,
+                    including but not limited to:
+                  </p>
+
+                  <ul class="large text-muted" style="float: left; width: 100%">
+                    <li>
+                      Methods for assessing data quality and AI readiness of
+                      scientific datasets
+                    </li>
+                    <li>
+                      Standardized metrics, evaluation protocols, and benchmark
+                      datasets across scientific domains
+                    </li>
+                    <li>
+                      Task-specific evaluation for scientific models (e.g.,
+                      protein structure, single-cell genomics, climate modeling)
+                    </li>
+                    <li>
+                      Assessing performance, reliability, robustness, and safety
+                      of LLMs and agentic AI on scientific tasks
+                    </li>
+                    <li>
+                      Interpretability, transparency, and trustworthiness of AI
+                      in scientific research
+                    </li>
+                    <li>
+                      Standardized benchmarks and evaluation frameworks for
+                      cross-domain comparison
+                    </li>
+                    <li>
+                      Evaluating AI-assisted workflows, hypothesis generation,
+                      and knowledge discovery
+                    </li>
+                    <li>
+                      Assessing AI-driven decision support and experimental
+                      design in scientific research
+                    </li>
+                    <li>
+                      Community-wide guidelines for reproducible benchmarking
+                      and FAIR principles in AI4S
+                    </li>
+                  </ul>
+                </div>
+
+                <div
+                  style="
+                    font-family:
+                      system-ui,
+                      -apple-system,
+                      sans-serif;
+                  "
+                >
+                  <h1
+                    style="
+                      font-family: &quot;Georgia&quot;, serif;
+                      font-size: 2.5rem;
+                      margin-bottom: 1.5rem;
+                      color: #2c5282;
+                      font-weight: 600;
+                    "
+                  >
+                    Submission Guidelines
+                  </h1>
+
+                  <p class="large text-muted">
+                    <mybold>Format:</mybold> &nbsp;All submissions must be a
+                    single PDF file, formatted according to the latest
+                    <b>IEEE Conference Proceedings Template</b>. We welcome
+                    high-quality original papers in the following two tracks:
+                  </p>
+                  <ul class="large text-muted" style="float: left; width: 100%">
+                    <li style="margin-bottom: 0rem">
+                      <span style="font-weight: bold"
+                        >Regular Research Papers:</span
+                      >
+                      8 pages (including all content and references)
+                    </li>
+                    <li style="margin-bottom: 0rem">
+                      <span style="font-weight: bold"
+                        >Vision Papers and Short Technical Papers:</span
+                      >
+                      4–6 pages (including all content and references)
+                    </li>
+                  </ul>
+
+                  <p class="large text-muted">
+                    <mybold>Best Paper Award:</mybold> &nbsp; Best paper awards
+                    will be considered to recognize outstanding submissions.
+                  </p>
+
+                  <p class="large text-muted">
+                    <mybold>Contact:</mybold> &nbsp; For any questions, please
+                    contact us at
+                    <a href="mailto:ai4sbench2026@easychair.org"
+                      >ai4sbench2026@easychair.org</a
+                    >.
+                  </p>
+                  <br />
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Program Section -->
+    <!-- Program Section (hidden until schedule is finalized)
     <section id="program">
-        <style>
-            #program {
-                color: #333;
-            }
+      <style>
+        #program {
+          color: #333;
+        }
 
-            .section-heading {
-                text-align: center;
-                color: #333;
-                margin-bottom: 1.5rem;
-            }
+        .section-heading {
+          text-align: center;
+          color: #333;
+          margin-bottom: 1.5rem;
+        }
 
-            #program .text-muted {
-                color: #666;
-                text-align: center;
-                font-style: italic;
-                margin: 1rem 0 2rem;
-            }
+        #program .text-muted {
+          color: #666;
+          text-align: center;
+          font-style: italic;
+          margin: 1rem 0 2rem;
+        }
 
-            #program h3 {
-                color: #2c5282;
-                margin: 2rem 0 1rem;
-            }
+        #program h3 {
+          color: #2c5282;
+          margin: 2rem 0 1rem;
+        }
 
-            #program .table {
-                width: 100%;
-                border-collapse: collapse;
-                margin: 1rem 0 2rem;
-            }
+        #program .table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 1rem 0 2rem;
+        }
 
-            #program .table td {
-                padding: 12px 15px;
-                border: 1px solid #ddd;
-            }
+        #program .table td {
+          padding: 12px 15px;
+          border: 1px solid #ddd;
+        }
 
-            #program .table tr:nth-child(even) {
-                background-color: #f8f9fa;
-            }
+        #program .table tr:nth-child(even) {
+          background-color: #f8f9fa;
+        }
 
-            #program .table td:first-child {
-                width: 140px;
-                font-weight: 500;
-                color: #2d3748;
-            }
+        #program .table td:first-child {
+          width: 140px;
+          font-weight: 500;
+          color: #2d3748;
+        }
 
-            #program .centered {
-                margin: 0 auto;
-            }
-        </style>
-        <div class="container">
-            <h2 class="section-heading">Schedule</h2>
-            <p class="text-muted">Tentative schedule. Final times and program structure (half-day or full-day) will be confirmed closer to the workshop date. All slots are in local time (Shenyang, UTC+8).</p>
+        #program .centered {
+          margin: 0 auto;
+        }
+      </style>
+      <div class="container">
+        <h2 class="section-heading">Schedule</h2>
+        <p class="text-muted">
+          Tentative schedule. Final times and program structure (half-day or
+          full-day) will be confirmed closer to the workshop date. All slots are
+          in local time (Shenyang, UTC+8).
+        </p>
 
-            <div id="schedule">
-                <h3>Workshop Program (Tentative)</h3>
-                <div class="centered">
-                    <table class="table">
-                        <tbody>
-                            <tr>
-                                <td>XXXX – XXXX</td>
-                                <td>Welcome and Opening Remarks</td>
-                            </tr>
-                            <tr>
-                                <td>XXXX – XXXX</td>
-                                <td>Invited Talk 1: Prof. Hui Xiong (HKUST-Guangzhou)</td>
-                            </tr>
-                            <tr>
-                                <td>XXXX – XXXX</td>
-                                <td>Invited Talk 2: Dr. Victoria Wang (IEEE SA) — Special Session on IEEE P3910 / P3912 Standards</td>
-                            </tr>
-                            <tr>
-                                <td>XXXX – XXXX</td>
-                                <td>Invited Talk 3: Prof. Yuanchun Zhou (CAS Scientific Data Center)</td>
-                            </tr>
-                            <tr>
-                                <td>XXXX – XXXX</td>
-                                <td>Coffee Break &amp; Poster Session</td>
-                            </tr>
-                            <tr>
-                                <td>XXXX – XXXX</td>
-                                <td>Oral Paper Presentations (10 min per paper)</td>
-                            </tr>
-                            <tr>
-                                <td>XXXX – XXXX</td>
-                                <td>Best Paper Award &amp; Closing Remarks</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+        <div id="schedule">
+          <h3>Workshop Program (Tentative)</h3>
+          <div class="centered">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>XXXX – XXXX</td>
+                  <td>Welcome and Opening Remarks</td>
+                </tr>
+                <tr>
+                  <td>XXXX – XXXX</td>
+                  <td>Invited Talk 1: Prof. Hui Xiong (HKUST-Guangzhou)</td>
+                </tr>
+                <tr>
+                  <td>XXXX – XXXX</td>
+                  <td>
+                    Invited Talk 2: Dr. Victoria Wang (IEEE SA) — Special
+                    Session on IEEE P3910 / P3912 Standards
+                  </td>
+                </tr>
+                <tr>
+                  <td>XXXX – XXXX</td>
+                  <td>
+                    Invited Talk 3: Prof. Yuanchun Zhou (CAS Scientific Data
+                    Center)
+                  </td>
+                </tr>
+                <tr>
+                  <td>XXXX – XXXX</td>
+                  <td>Coffee Break &amp; Poster Session</td>
+                </tr>
+                <tr>
+                  <td>XXXX – XXXX</td>
+                  <td>Oral Paper Presentations (10 min per paper)</td>
+                </tr>
+                <tr>
+                  <td>XXXX – XXXX</td>
+                  <td>Best Paper Award &amp; Closing Remarks</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
+      </div>
     </section>
-
-    <!-- Speaker Section -->
-    <section id="speaker">
-        <style>
-            #speaker .container,
-            #organization .container {
-                max-width: 1200px;
-                margin: 0 auto;
-                padding: 0 15px;
-            }
-
-            .speakers-grid {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 30px;
-                width: 100%;
-                max-width: 800px;
-                margin: 0 auto;
-                padding: 0 40px;
-            }
-
-            .speakers-grid .team-member {
-                text-align: center;
-            }
-
-            .speakers-grid .team-member img {
-                width: 150px;
-                height: 150px;
-                margin: 0 auto;
-                background: #f0f0f0;
-            }
-
-            .organizers-grid {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 30px;
-                width: 100%;
-                max-width: 900px;
-                margin: 0 auto;
-                padding: 0 40px;
-            }
-
-            .organizers-grid .team-member {
-                text-align: center;
-            }
-
-            .organizers-grid .team-member img {
-                width: 150px;
-                height: 150px;
-                margin: 0 auto;
-                background: #f0f0f0;
-            }
-
-            .img-circle {
-                border-radius: 50%;
-            }
-
-            #speaker .col-sm-2 {
-                width: auto;
-                padding: 0;
-            }
-            #organization .col-sm-2 {
-                width: auto;
-                padding: 0;
-            }
-        </style>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 ">
-                    <h2 class="section-heading">Invited Speakers</h2>
-                </div>
-            </div>
-            <br><br><br>
-
-            <div class="speakers-grid">
-                <!-- TODO: replace placeholder with actual photos -->
-                <div class="team-member">
-                    <img src="./img/avatar_placeholder.svg" class="img-responsive img-circle">
-                    <a href="https://hkust-gz.edu.cn/">
-                        <h4>Prof. Hui Xiong</h4>
-                    </a>
-                    <p class="text-muted">HKUST (Guangzhou)<br><span style="font-size: 0.9em;">Fellow of ACM, IEEE, AAAI, AAAS</span></p>
-                </div>
-
-                <div class="team-member">
-                    <img src="./img/avatar_placeholder.svg" class="img-responsive img-circle">
-                    <a href="#">
-                        <h4>Dr. Victoria Wang</h4>
-                    </a>
-                    <p class="text-muted">IEEE Standards Association<br><span style="font-size: 0.9em;">China Strategy Lead</span></p>
-                </div>
-
-                <div class="team-member">
-                    <img src="./img/avatar_placeholder.svg" class="img-responsive img-circle">
-                    <a href="#">
-                        <h4>Prof. Yuanchun Zhou</h4>
-                    </a>
-                    <p class="text-muted">CNIC, Chinese Academy of Sciences<br><span style="font-size: 0.9em;">Head of CAS Scientific Data Center</span></p>
-                </div>
-            </div>
-        </div>
-    </section>
+    -->
 
     <!-- Organizers -->
     <section id="organization">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="section-heading">Workshop Organizers</h2>
-                </div>
-            </div>
-            <br><br><br>
-            <div class="organizers-grid">
-                <!-- TODO: replace placeholder with actual photos -->
-                <div class="team-member">
-                    <img src="./img/avatar_placeholder.svg" class="img-responsive img-circle">
-                    <a href="#">
-                        <h4>Hengshu Zhu</h4>
-                    </a>
-                    <p class="text-muted">CNIC, Chinese Academy of Sciences</p>
-                </div>
+      <style>
+        #organization .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 15px;
+        }
 
-                <div class="team-member">
-                    <img src="./img/avatar_placeholder.svg" class="img-responsive img-circle">
-                    <a href="#">
-                        <h4>Chuan Qin</h4>
-                    </a>
-                    <p class="text-muted">CNIC, Chinese Academy of Sciences</p>
-                </div>
+        .organizers-grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 30px;
+          width: 100%;
+          max-width: 900px;
+          margin: 0 auto;
+          padding: 0 40px;
+        }
 
-                <div class="team-member">
-                    <img src="./img/avatar_placeholder.svg" class="img-responsive img-circle">
-                    <a href="#">
-                        <h4>Chuanren Liu</h4>
-                    </a>
-                    <p class="text-muted">University of Tennessee, Knoxville</p>
-                </div>
+        .organizers-grid .team-member {
+          text-align: center;
+        }
 
-                <div class="team-member">
-                    <img src="./img/avatar_placeholder.svg" class="img-responsive img-circle">
-                    <a href="#">
-                        <h4>Xinghui Huang</h4>
-                    </a>
-                    <p class="text-muted">China Earthquake Networks Center</p>
-                </div>
+        .organizers-grid .team-member img {
+          width: 150px;
+          height: 150px;
+          margin: 0 auto;
+          background: #f0f0f0;
+        }
 
-                <div class="team-member">
-                    <img src="./img/avatar_placeholder.svg" class="img-responsive img-circle">
-                    <a href="#">
-                        <h4>Qi Liu</h4>
-                    </a>
-                    <p class="text-muted">University of Science and Technology of China</p>
-                </div>
+        .img-circle {
+          border-radius: 50%;
+        }
 
-                <div class="team-member">
-                    <img src="./img/avatar_placeholder.svg" class="img-responsive img-circle">
-                    <a href="#">
-                        <h4>Hui Xiong</h4>
-                    </a>
-                    <p class="text-muted">HKUST (Guangzhou)</p>
-                </div>
-            </div>
+        #organization .col-sm-2 {
+          width: auto;
+          padding: 0;
+        }
+      </style>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="section-heading">Workshop Organizers</h2>
+          </div>
         </div>
-    </section>
+        <br /><br /><br />
+        <div class="organizers-grid">
+          <!-- TODO: replace placeholder with actual photos -->
+          <div class="team-member">
+            <img
+              src="./img/avatar_placeholder.svg"
+              class="img-responsive img-circle"
+            />
+            <a href="#">
+              <h4>Hengshu Zhu</h4>
+            </a>
+            <p class="text-muted">CNIC, Chinese Academy of Sciences</p>
+          </div>
 
+          <div class="team-member">
+            <img
+              src="./img/avatar_placeholder.svg"
+              class="img-responsive img-circle"
+            />
+            <a href="#">
+              <h4>Chuan Qin</h4>
+            </a>
+            <p class="text-muted">CNIC, Chinese Academy of Sciences</p>
+          </div>
+
+          <div class="team-member">
+            <img
+              src="./img/avatar_placeholder.svg"
+              class="img-responsive img-circle"
+            />
+            <a href="#">
+              <h4>Chuanren Liu</h4>
+            </a>
+            <p class="text-muted">University of Tennessee, Knoxville</p>
+          </div>
+
+          <div class="team-member">
+            <img
+              src="./img/avatar_placeholder.svg"
+              class="img-responsive img-circle"
+            />
+            <a href="#">
+              <h4>Xinghui Huang</h4>
+            </a>
+            <p class="text-muted">China Earthquake Networks Center</p>
+          </div>
+
+          <div class="team-member">
+            <img
+              src="./img/avatar_placeholder.svg"
+              class="img-responsive img-circle"
+            />
+            <a href="#">
+              <h4>Qi Liu</h4>
+            </a>
+            <p class="text-muted">
+              University of Science and Technology of China
+            </p>
+          </div>
+
+          <div class="team-member">
+            <img
+              src="./img/avatar_placeholder.svg"
+              class="img-responsive img-circle"
+            />
+            <a href="#">
+              <h4>Hui Xiong</h4>
+            </a>
+            <p class="text-muted">HKUST (Guangzhou)</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- jQuery -->
     <script src="./files_new/jquery.js"></script>
@@ -615,10 +744,5 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="./files_new/agency.js"></script>
-
-
-
-
-</body>
-
+  </body>
 </html>

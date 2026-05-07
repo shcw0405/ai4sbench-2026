@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 仓库性质
 
-这是 **Foundation Models in the Wild** 系列 workshop 的官方网站,通过 GitHub Pages 托管(仓库名 `fm-wild-community.github.io`)。这是一个 **纯静态 HTML 站点,没有构建系统**:没有 Jekyll、没有 npm/yarn、没有 CI(`.github/workflows/main.yml` 是空文件),GitHub Pages 直接从 `main` 分支根目录提供文件。
+这是 **Foundation Models in the Wild** 系列 workshop 的官方网站,通过 GitHub Pages 托管(仓库名 `fm-wild-community.github.io`)。这是一个 **纯静态 HTML 站点,没有构建系统**:没有 Jekyll、没有 npm/yarn、没有 CI,GitHub Pages 直接从 `main` 分支根目录提供文件。(早期遗留过一个 0 字节的 `.github/workflows/main.yml`,会让 GitHub Actions 校验报 "No event triggers defined in `on`",已删除 — 不要再加空 workflow 文件。)
 
 ## 本地预览
 
